@@ -15,8 +15,8 @@ class SnapchatBot(object):
 
         self.auth_token = STATIC_TOKEN
 
-        self.username = username
-        self.password = password
+        self.username = erakaja1
+        self.password = nardi123
 
         r = self._make_request("/loq/login", {
             'username': self.username,
